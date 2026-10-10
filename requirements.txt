@@ -1,0 +1,5 @@
+opencv-python>=4.10
+numpy>=1.26
+mediapipe>=0.10.14
+deepface>=0.0.93
+tf-keras>=2.16

@@ -1,0 +1,33 @@
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Python cache / build
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Downloaded model files (fetched automatically on first run)
+*.task
+*.h5
+*.pt
+*.onnx
+.deepface/
+
+# Snapshots saved with the 's' key
+snapshot_*.png
+emotion_snapshot_*.png
+hand_snapshot_*.png
+
+# Secrets
+.env
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
